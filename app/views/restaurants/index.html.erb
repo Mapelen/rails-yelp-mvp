@@ -1,0 +1,11 @@
+<h1> Here are all the restaurants </h1>
+
+<ul>
+  <% @restaurants.each do |restaurant| %>
+    <li>
+    <h2><%= restaurant.name %></h2>
+    <p><%= restaurant.address%></p>
+    </li>
+
+  <% end %>
+</ul>

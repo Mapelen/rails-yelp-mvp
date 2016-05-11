@@ -1,0 +1,9 @@
+<%= form_for(@restaurant) do |f| %>
+  <%= f.label :name, "Entrez un nouveau resto" %>
+  <%= f.text_field :name %>
+  <%= f.label :category, "Entrez une catégorie" %>
+  <%= f.text_field :category %>
+  <%= f.label :address, "Où est ce restaurant ?" %>
+  <%= f.text_field :address %>
+  <%= f.submit %>
+<% end %>
